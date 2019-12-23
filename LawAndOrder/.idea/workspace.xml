@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e81fcbd-d979-44ab-8488-c2e0961f1c5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/LowAndOrder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/dataSources/4ffe417a-40d6-428d-90f7-5a7d7f7fa7bf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/dataSources/4ffe417a-40d6-428d-90f7-5a7d7f7fa7bf/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/LowAndOrder/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/LowAndOrder/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/LowAndOrder/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/LowAndOrder/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/demo1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/demo2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/demo3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0002_auto_20190220_1634.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0003_detective.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0004_citizen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0005_auto_20190221_2309.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0006_auto_20190221_2312.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0007_auto_20190221_2323.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0008_auto_20190223_1127.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0009_station.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0010_complent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0011_auto_20190225_1139.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0012_auto_20190225_1242.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0013_criminal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0014_status.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/0015_auto_20190225_1758.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/css/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/Law_&amp;_Order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/admin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/citizen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/detctive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/static/images/police.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addcitizen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addcom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addcomplients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addcrim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addcriminal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/adddetective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addpolice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addstations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/addstatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/adminHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/adminlogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/citizenHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/citizenlogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/complentUpdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletecitizen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletecomplients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletecrim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletecriminal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletedetective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletepolice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/deletestation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/detectiveHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/detectivelogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/detectiveupdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/detectiveviewcomplients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/manuPolice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/menuCitizen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/menuDetective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/policeHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/policelogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/policeupdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/stationupdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/statusAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/statusDetec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/statusUpdate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/updatecomplients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/updatedetective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/updatepolice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/updatestation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/updatestatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewCitizen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewDetec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewPolice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewcitizencomplet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewcomp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewcomplent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewcri.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewcriminal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewdetective.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewstat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewstatcit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viewstatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowAndOrder/templates/viwestation.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="204" column="53" lean-forward="true" selection-start-line="204" selection-start-column="53" selection-end-line="204" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/updatestation.html" />
+        <option value="$PROJECT_DIR$/templates/updatepolice.html" />
+        <option value="$PROJECT_DIR$/templates/updatedetective.html" />
+        <option value="$PROJECT_DIR$/templates/stationupdate.html" />
+        <option value="$PROJECT_DIR$/templates/policeupdate.html" />
+        <option value="$PROJECT_DIR$/templates/detectiveupdate.html" />
+        <option value="$PROJECT_DIR$/templates/deletestation.html" />
+        <option value="$PROJECT_DIR$/templates/deletepolice.html" />
+        <option value="$PROJECT_DIR$/templates/deletedetective.html" />
+        <option value="$PROJECT_DIR$/templates/deletecitizen.html" />
+        <option value="$PROJECT_DIR$/templates/addstations.html" />
+        <option value="$PROJECT_DIR$/templates/addpolice.html" />
+        <option value="$PROJECT_DIR$/templates/policeHome.html" />
+        <option value="$PROJECT_DIR$/templates/citizenHome.html" />
+        <option value="$PROJECT_DIR$/templates/detectiveHome.html" />
+        <option value="$PROJECT_DIR$/templates/addcomplients.html" />
+        <option value="$PROJECT_DIR$/templates/updatecomplients.html" />
+        <option value="$PROJECT_DIR$/templates/viewcomplent.html" />
+        <option value="$PROJECT_DIR$/templates/deletecomplients.html" />
+        <option value="$PROJECT_DIR$/templates/adddetective.html" />
+        <option value="$PROJECT_DIR$/templates/addcriminal.html" />
+        <option value="$PROJECT_DIR$/templates/viewcriminal.html" />
+        <option value="$PROJECT_DIR$/templates/deletecriminal.html" />
+        <option value="$PROJECT_DIR$/templates/viewcri.html" />
+        <option value="$PROJECT_DIR$/templates/deletecrim.html" />
+        <option value="$PROJECT_DIR$/templates/viewDetec.html" />
+        <option value="$PROJECT_DIR$/templates/viewdetective.html" />
+        <option value="$PROJECT_DIR$/templates/viewcomp.html" />
+        <option value="$PROJECT_DIR$/templates/addcom.html" />
+        <option value="$PROJECT_DIR$/templates/statusAdd.html" />
+        <option value="$PROJECT_DIR$/templates/addstatus.html" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/templates/updatestatus.html" />
+        <option value="$PROJECT_DIR$/templates/viewstatus.html" />
+        <option value="$PROJECT_DIR$/templates/statusUpdate.html" />
+        <option value="$PROJECT_DIR$/templates/viewstat.html" />
+        <option value="$PROJECT_DIR$/templates/detectiveviewcomplients.html" />
+        <option value="$PROJECT_DIR$/templates/citizenlogin.html" />
+        <option value="$PROJECT_DIR$/templates/viewstatcit.html" />
+        <option value="$PROJECT_DIR$/templates/menuCitizen.html" />
+        <option value="$PROJECT_DIR$/templates/manuPolice.html" />
+        <option value="$PROJECT_DIR$/templates/statusDetec.html" />
+        <option value="$PROJECT_DIR$/templates/menuDetective.html" />
+        <option value="$PROJECT_DIR$/LowAndOrder/urls.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/templates/Report.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/LowAndOrder/settings.py" />
+        <option value="$PROJECT_DIR$/templates/head.html" />
+        <option value="$PROJECT_DIR$/app/static/css/nav.css" />
+        <option value="$PROJECT_DIR$/templates/menu.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-65" />
+    <option name="y" value="25" />
+    <option name="width" value="1385" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\LowAndOrder\templates" />
+      <recent name="E:\project\LowAndOrder\app\static\images" />
+      <recent name="E:\project\LowAndOrder\app\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="LowAndOrder" type="Python.DjangoServer" factoryName="Django server">
+      <module name="LowAndOrder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="LowAndOrder.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e81fcbd-d979-44ab-8488-c2e0961f1c5f" name="Default Changelist" comment="" />
+      <created>1550493660432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550493660432</updated>
+      <workItem from="1576764249282" duration="610000" />
+      <workItem from="1577078234455" duration="168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="778000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30026808" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="manage.py@LowAndOrder" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.46110326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3627451" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3267974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.21709532" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/addstations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlogin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/complentUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/policeHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/citizenHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/deletecomplients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/tables.rnc" />
+    <entry file="file://$PROJECT_DIR$/templates/adddetective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detectiveHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addcriminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewcri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewcriminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/deletecriminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/deletecrim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewdetective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewDetec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addcomplients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="13" lean-forward="true" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addcrim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addcom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updatecomplients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewcomplent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updatestatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/statusAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detectiveviewcomplients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/citizenlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/statusUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewstat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" lean-forward="true" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewstatcit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menuCitizen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewcitizencomplet.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewcomp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manuPolice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/statusDetec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menuDetective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/viewstatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4ffe417a-40d6-428d-90f7-5a7d7f7fa7bf/schema/main/table/app_citizen" />
+    <entry file="das://4ffe417a-40d6-428d-90f7-5a7d7f7fa7bf/schema/main/table/app_complent" />
+    <entry file="file://$PROJECT_DIR$/templates/addstatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="96" column="21" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="96" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4ffe417a-40d6-428d-90f7-5a7d7f7fa7bf/schema/main/table/app_status" />
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LowAndOrder/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LowAndOrder/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/SWATI/PYTHON/mydatabase/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="204" column="53" lean-forward="true" selection-start-line="204" selection-start-column="53" selection-end-line="204" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

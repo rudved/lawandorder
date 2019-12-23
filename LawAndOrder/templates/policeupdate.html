@@ -1,0 +1,168 @@
+{% load staticfiles %}
+<doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   </head>
+  <body>
+
+{% load staticfiles %}
+{% include 'head.html' %}<br><br>
+
+
+<link rel="stylesheet" href="{% static 'css/nav.css' %}">
+
+<div class="container">
+  <nav>
+  <ul class="nav">
+    <li><a href="/index/">Home</a></li>
+         <li><a href="#">Police</a>
+             <ul>
+                <li><a href="/addpolice/">Add Police</a></li>
+                <li><a href="/updatepolice/">Update Police</a></li>
+                <li><a href="/viewpolice/">View Police</a></li>
+                <li><a href="/deletepolice/">Delete Police</a></li>
+               </ul></li>
+    <li><a href="#">Detective</a>
+     <ul>
+                <li><a href="/adddetective/">Add Detective</a></li>
+                <li><a href="/updatedetective/">Update Detective</a></li>
+                <li><a href="/viewdetective/">View Detective</a></li>
+                <li><a href="/deletedetective/">Delete Detective</a></li>
+                </ul>
+    </li>
+        <li><a href="#">Citizen Details</a>
+            <ul>
+                <li><a href="/viewcitizen/">View Citizen Details</a></li>
+                <li><a href="/viewcitizencomplet/">View Citizen Copmlate</a></li>
+                <li><a href="/deletecitizen/">Delete Citizen</a></li>
+             </ul>
+        </li>
+       <li><a href="#">Station</a>
+           <ul>
+               <li><a href="/addstations/">Add Station</a></li>
+                <li><a href="/updatestation/">Update Station</a></li>
+                <li><a href="/viwestation/">View Station</a></li>
+                <li><a href="/deletestation/">Delete Station</a></li>
+              </ul>
+       </li>
+       <li><a href="/index/">Logout</a></li>
+      </ul>
+   </nav>
+</div><br>
+<br>
+<center>
+<form action="/savepolice/" method="post">
+    {% csrf_token %}
+{%  for x in data %}
+<table align="center" >
+    <tr>
+        <th colspan="2"><center><font size="5" face="Arial Black">
+            Update Police</font></center>
+        </th>
+        <tr>
+    <tr>
+    <th>
+        Police_ID:
+    </th>
+     <th>
+        <input type="number" value="{{ x.police_id }}" name="police_id" readonly >
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Police_Name:
+    </th>
+     <th>
+        <input type="text" name="police_name" value="{{ x.police_name }}" required>
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Date_Of_Birth:
+    </th>
+     <th>
+        <input type="date" name="date_of_birth" value="{{ x.date_of_birth }}" required placeholder="">
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Address:
+    </th>
+     <th>
+        <input type="text" name="address" value="{{ x.address }}" required placeholder="">
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Designation:
+    </th>
+     <th>
+       <select name="designation" >
+           <option value="{{ x.designation }}">Director General of Police(DGP)</option>
+           <option>Additional Director General Of Police(ADGP)</option>
+           <option>Inspector General Of Police(IGP)</option>
+           <option>Deputy Inspector General Of Police(DIGP)</option>
+           <option>Superintendent of Police(SP)</option>
+           <option>Additional Superintendent Of Police(ASP)</option>
+           <option>Deputy Superintendent of Police(DSP)</option>
+           <option>Police Inspector (P.I.)</option>
+           <option>Assistant Police Inspector (A.P.I.)</option>
+           <option>Police Sub-Inspector (SI)</option>
+           <option>Assistant Police Sub-Inspector (ASI)</option>
+           <option>Head Constable(HC)</option>
+           <option>Police Constable(PC)</option>
+       </select>
+        </th>
+    </tr>
+
+    <tr>
+    <th>
+        Mobile_No:
+    </th>
+     <th>
+        <input type="number" name="mobile_no" value="{{ x.mobile_no }}" required placeholder="">
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Station_Id:
+    </th>
+     <th>
+        <input type="number" name="station_id" value="{{ x.station_id }}" required placeholder="">
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Username:
+    </th>
+     <th>
+        <input type="text" name="username" value="{{ x.username }}" required placeholder="">
+        </th>
+    </tr>
+    <tr>
+    <th>
+        Password:
+    </th>
+     <th>
+        <input type="password" name="password" required placeholder="********">
+        </th>
+    </tr>
+    <tr><th height="10"></th></tr>
+    <tr><th colspan="2"><center><button type="submit">Update</button></center> </th></tr>
+</table>
+    {% endfor %}
+    </form>
+</center>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html></doctype>
